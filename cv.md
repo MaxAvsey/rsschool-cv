@@ -32,8 +32,7 @@ const hasChar = (text, char) => {
   return false;
 }
 ```
- 
- 
+
 ## Education:
 1. Vocational Technical School
  
@@ -45,3 +44,6 @@ const hasChar = (text, char) => {
 ## Languages:
 * Russian (Native speaker)
 * English (B1 Pre-intermediate)
+
+
+ 
