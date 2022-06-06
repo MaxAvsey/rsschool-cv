@@ -1,1 +1,1 @@
-# rsschool-cv
+https://maxavsey.github.io/rsschool-cv/
