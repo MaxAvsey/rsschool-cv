@@ -9,17 +9,30 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1>Maxim Avsievich</h1>
-            <h2>Junior frontend developer</h2>
-        </div>
-        <div>
-            <img src="/rsschool-cv/IMG_9556.JPEG" alt="my_photo">
-        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code_exemple">Code example</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="container-about">
+        <div class="intro">
             <div>
+                <h1>Maxim Avsievich</h1>
+                <h2>Junior frontend developer</h2>
+            </div>
+            <div class="my_photo">
+                <img src="/rsschool-cv/IMG_9556.JPEG" alt="my_photo">
+            </div>
+        </div>
+        <div class="container-about">
+            <div id="contacts">
                 <h2>Contacts:</h2>
                 <address>
                     <ul>
@@ -28,12 +41,12 @@
                     </ul>
                 </address>
             </div>
-            <div class="about"> 
+            <div class="about" id="about"> 
                 <h2>About:</h2>
                 <p>Hello, glad to see you on my short CV. My name is Maxim) I'm 30 years old. I'm fond of learning and discovering something new. It's easy for me to find new friends and get on with different people. I'm keen on humor and comedy but I'm very serious about my job. I play football time by time. As a football player, I realize what a good team means. I'm a good player, a patient learner, and a responsible employee.</p>
             </div>
         </div>
-        <div>
+        <div id="skills">
             <h2>Skills:</h2>
             <ul>
                 <li>HTML</li>
@@ -43,7 +56,7 @@
                 <li>Adobe Photoshop Figma</li>
             </ul>
         </div>
-        <div>
+        <div id="code_exemple">
             <h2>Code example:</h2>
             <pre>
                 <code>
@@ -61,18 +74,20 @@
                 </code>
             </pre>
         </div>
-        <div>
+        <div id="education">
             <h2>Education:</h2>
             <p>Vocational Technical School</p>
         </div>
-        <div>
+        <div id="courses">
             <h2>Courses:</h2>
             <ul>
                 <li><a href="https://learn.javascript.ru/">LearnJavaScript</a></li>
                 <li><a href="https://youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5">CS50</a></li>
+                <li><a href="https://www.codewars.com/users/maxavsey">CodeWars</a></li>
+                <li><a href="https://www.freecodecamp.org/fcc9dbb56f4-174f-4636-9988-8cbc641dc685">FreeCodeCamp</a></li>
             </ul>
         </div>
-        <div>
+        <div id="languages">
             <h2>Languages:</h2>
             <ol>
                 <li>Russian (Native speaker)</li>
